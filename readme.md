@@ -24,10 +24,10 @@
 
 - To remove an app, replace `true` with `false`
 
-<!--# Installation:
+# Installation:
 
-1. Download and open [MacForge](https://github.com/w0lfschild/app_updates/raw/master/MacForge/MacForge.zip)
-2. Install [MEMiniMe](https://www.macenhance.com/mflink?com.macenhance.MEMiniMe)-->
+1. Download and open [MacForge](https://github.com/w0lfschild/app_updates/raw/master/MacForge1/MacForge.zip)
+2. Install [MEMiniMe](https://www.macenhance.com/mflink?com.macenhance.MEMiniMe)
 
 # License:
 

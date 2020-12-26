@@ -23,6 +23,7 @@
 		F39B2FF324462DAB00BB8B00 /* ZKSwizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKSwizzle.h; sourceTree = "<group>"; };
 		F39B2FF424462DAB00BB8B00 /* ZKSwizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKSwizzle.m; sourceTree = "<group>"; };
 		F39B2FFD244630BC00BB8B00 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBBEC3942597D1310026A0E5 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,7 @@
 		F39B2FDB24462DAA00BB8B00 = {
 			isa = PBXGroup;
 			children = (
+				FBBEC3942597D1310026A0E5 /* readme.md */,
 				F39B2FEB24462DAB00BB8B00 /* MEMiniMe */,
 				F39B2FE624462DAB00BB8B00 /* Frameworks */,
 				F39B2FE524462DAB00BB8B00 /* Products */,
