@@ -13,13 +13,14 @@
 @implementation Goodbye
 
 + (void)load {
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        for (NSWindow *w in NSApp.windows)
-            if (w.toolbarStyle != NSWindowToolbarStyleUnifiedCompact) [w setToolbarStyle:NSWindowToolbarStyleUnifiedCompact];
-    });
     NSArray *globalBlacklist = [NSArray arrayWithContentsOfFile:[[NSBundle bundleForClass:self.class] pathForResource:@"blacklist" ofType:@"plist"]];
-    if (![globalBlacklist containsObject:NSBundle.mainBundle.bundleIdentifier] && ![NSUserDefaults.standardUserDefaults boolForKey:@"MEMiniMeBlacklist"])
+    if (![globalBlacklist containsObject:NSBundle.mainBundle.bundleIdentifier] && ![NSUserDefaults.standardUserDefaults boolForKey:@"MEMiniMeBlacklist"]) {
         ZKSwizzle(miniTitle, NSWindow);
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            for (NSWindow *w in NSApp.windows)
+                if (w.toolbarStyle != NSWindowToolbarStyleUnifiedCompact) [w setToolbarStyle:NSWindowToolbarStyleUnifiedCompact];
+        });
+    }
 }
 
 @end
