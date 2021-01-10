@@ -11,7 +11,7 @@
 # Functionality:
 
 - Windows that use system drawn toolbar will be set to use `NSWindowToolbarStyleUnifiedCompact` 
-- Note that this doesn't effect custom drawn titlebars / toolbars 
+- Note that this doesn't affect custom drawn titlebars / toolbars 
 
 # Blacklisting:
 
