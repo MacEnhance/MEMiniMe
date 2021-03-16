@@ -28,8 +28,3 @@
 
 1. Download and open [MacForge](https://github.com/w0lfschild/app_updates/raw/master/MacForge1/MacForge.zip)
 2. Install [MEMiniMe](https://www.macenhance.com/mflink?com.macenhance.MEMiniMe)
-
-# License:
-
-Pretty much the BSD license, just don't repackage it and call it your own please!    
-Also if you do make some changes, feel free to make a pull request and help make things more awesome!
